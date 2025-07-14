@@ -1,6 +1,6 @@
 # kafka-consumer
 
-A simple Kafka consumer for reading messages from SCiMMA-hosted topics [SCiMMA Kafka](https://scimma.org).
+A simple Kafka consumer for reading messages from topics hosted on [SCiMMA Kafka](https://scimma.org).
 
 ## Usage
 
@@ -9,12 +9,13 @@ A simple Kafka consumer for reading messages from SCiMMA-hosted topics [SCiMMA K
 ```
 
 ### Optional flags
-Credentials from https://scimma.org/hopauth/
 
-    --username USERNAME – SCiMMA username
-    --password PASSWORD – SCiMMA password
-    --from-start – Read messages from the beginning of the topic
-    --max-age-days N – Skip messages older than N days
+        --username USERNAME – SCiMMA username
+        --password PASSWORD – SCiMMA password
+        --from-start – Read messages from the beginning of the topic
+        --max-age-days N – Skip messages older than N days
+
+Credentials from https://scimma.org/hopauth/
 
 ### Note
 This script is preconfigured to consume from the topic:
