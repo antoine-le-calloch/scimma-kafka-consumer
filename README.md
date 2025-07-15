@@ -15,7 +15,7 @@ A simple Kafka consumer for reading messages from topics hosted on [SCiMMA Kafka
         --from-start – Read messages from the beginning of the topic
         --max-age-days N – Skip messages older than N days
 
-Credentials from https://scimma.org/hopauth/
+Create credentials at https://scimma.org/hopauth/
 
 ### Note
 This script is preconfigured to consume from the topic:
