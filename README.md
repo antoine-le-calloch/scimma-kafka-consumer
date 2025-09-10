@@ -1,4 +1,4 @@
-# kafka-consumer
+# Scimma kafka consumer
 
 A simple Kafka consumer for reading messages from topics hosted on [SCiMMA Kafka](https://scimma.org).
 
